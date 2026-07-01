@@ -13,7 +13,7 @@ set -ouex pipefail
 dnf5 install -y nix btrfs-assistant
 
 # Install RPM
-rpm install -i 'https://github.com/edde746/plezy/releases/latest/download/plezy-linux-x64.rpm'
+yum install 'https://github.com/edde746/plezy/releases/latest/download/plezy-linux-x64.rpm'
 
 # Use a COPR Example:
 #
