@@ -12,6 +12,9 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y nix btrfs-assistant
 
+# Install RPM
+rpm install -i 'https://github.com/edde746/plezy/releases/latest/download/plezy-linux-x64.rpm'
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
