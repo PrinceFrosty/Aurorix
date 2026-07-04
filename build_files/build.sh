@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 copr enable -y scottames/ghostty
-dnf5 install -y steam ghostty nix btrfs-assistant 'https://github.com/edde746/plezy/releases/latest/download/plezy-linux-x64.rpm'
+dnf5 install -y steam ghostty lutris nix btrfs-assistant 'https://github.com/edde746/plezy/releases/latest/download/plezy-linux-x64.rpm'
 dnf5 copr disable -y scottames/ghostty
 
 # Install RPM
